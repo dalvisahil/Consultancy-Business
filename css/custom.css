@@ -1,0 +1,512 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-blue {
+    color: #3764EB;
+}
+
+.text-dark {
+    color: #000;
+}
+
+.text-light-black {
+    color: #777;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.theme-background {
+    background-color: #3764EB;
+}
+
+.white-background {
+    background-color: #FFFFFF;
+}
+
+.light-black-background {
+    background-color: #EEE !important;
+}
+
+.light-background {
+    background-color: #EFEFEF;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.border-50 {
+    border-radius: 50%;
+}
+
+.bottom-line {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #FFF;
+    display: block;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-white {
+    background-color: white;
+    border: 1px solid #333;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+.title .title-thin {
+    font-weight: 300;
+}
+
+.title .title-bold {
+    font-weight: 800;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.btn-default {
+    display: inline-block;
+    background-color: #3764EB;
+    color: #FFF;
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 130px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-default:hover {
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-transp {
+    display: inline-block;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 130px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    border: 1px solid #fff;
+}
+
+.btn-transp:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#showcase {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.showcase-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/home/photo-of-man-holding-a-book-927022.jpg);
+}
+
+.parallax-effect {
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.showcase-text {
+    top: 30%;
+    left: 20%;
+}
+
+.showcase-text h3 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.showcase-text h2 {
+    font-size: 70px;
+}
+
+.info {
+    top: 10%;
+    width: 100%;
+}
+
+.pattern-bg {
+    min-height: 350px;
+}
+
+.white-bg {
+    min-height: 500px;
+}
+
+.card {
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: 40px;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+
+.card img {
+    transform: scale(0.7);
+    display: block;
+    margin: 0 auto;
+}
+
+.card h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 13px;
+}
+
+.card:hover {
+    transform: translateY(-5%);
+    transition: all 0.3s ease;
+}
+
+.exp-img {
+    display: block;
+    margin: 100px auto 0 auto;
+}
+
+.experiance {
+    margin-top: 100px;
+}
+
+.experiance h3 {
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.experiance h4 {
+    font-size: 35px;
+}
+
+.experiance p {
+    font-size: 13px;
+    color: #888;
+}
+
+.experiance ul li {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.experiance ul li i {
+    padding-right: 5px;
+}
+
+.about-title h3 {
+    color: #F2F2F2;
+    font-size: 93px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+#services {
+    background-color: #EFEFEF;
+    padding: 100px 0;
+}
+.service{
+    min-height: 340px;
+}
+.service img{
+    height: 50%;
+    width: 50%;
+}
+.service-card{
+    padding: 20px;
+}
+.service-card{
+    background-color: #fff;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    z-index: 999;
+    width: 80%;
+    transform: translateX(-50%);
+}
+.service-card h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.service-card p{
+    font-size: 12px;
+}
+
+/*****************************************************
+                OWL CAROUSEL SETTINGS
+******************************************************/
+.owl-theme .owl-nav [class*=owl-]{
+    color: #FFF;
+    background-color: #CCC;
+    border-radius: 50%;
+    transition: all 0.3s;
+    min-width: 38px;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: #3764eb;
+    /* color: #3764eb; */
+}
+
+#choose{
+    padding: 100px 0;
+    background-image: url(../images/home/laptop-and-coffee-3184464.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#choose .overlay{
+    background-color: #333;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+/*    z-index: -1;*/
+}
+.icon-holder{
+    display: inline-block;
+    text-align: center;
+    width: 94px;
+    height: 60px;
+    margin-right: 20px;
+    line-height: 70px;
+    margin-top: 10px;
+    border-radius: 100%;
+    border: solid 1px #3764eb;
+    cursor: pointer;
+    color: #FFF;
+    transition: all 0.3s ease;
+}
+.icon-holder:hover{
+    background-color: #3764eb;
+    transition: all 0.3s ease;
+}
+.feature{
+    z-index: 1;
+}
+.feature .text h4{
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.feature .text p{
+    color: #FFF;
+    font-size: 12px;
+}
+#team{
+    padding: 100px 0;
+}
+.team-member{
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.team-member img{
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.team-member img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.team-member-img{
+    margin: 0 auto;
+    width: 255px;
+    height: 255px;
+    overflow: hidden;
+}
+.team-member h4{
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 0 0 0;
+    font-weight: 700;
+}
+.team-member span{
+    color: #3764eb;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    display: block;
+}
+.team-member ul{
+    display: inline-block;
+    margin: 0 27px;
+    padding-top: 20px;
+}
+.team-member ul li{
+    display: inline;
+    padding-left: 10px;
+}
+.team-member ul li i{
+    width: 35px;
+    height: 35px;
+    background-color: #EEE;
+    display: inline-block;
+    color: #666;
+    text-align-last: center;
+    line-height: 35px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.team-member ul li i:hover{
+    color: #FFF;
+    background-color: #3764eb;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#case-study img{
+/*
+    width: 100%;
+    height: 250px;
+    display: inline;
+    margin: 0 auto;
+*/
+}
+
+#up-to-date{
+    background-color: #555;
+    padding: 50px 0;
+    color: #FFF;
+}
+#up-to-date .heading{
+    margin-left: 20px;
+}
+#up-to-date .text{
+    margin: 0 auto;
+}
+#up-to-date .text p{
+    font-size: 12px;
+}
+#up-to-date input{
+    border: none;
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #333;
+    color: #FFF;
+}
